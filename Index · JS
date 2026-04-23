@@ -1,0 +1,237 @@
+// ─── PRODUCTS ────────────────────────────────────────────────────────────────
+export const products = [
+  {
+    id: '01',
+    icon: '📈',
+    color: 'blue',
+    title: 'SalesSight AI',
+    tagline: 'Forecasting & Churn Intelligence Platform',
+    features: [
+      'ML-powered churn prediction with 87% accuracy using gradient boosting',
+      'Time series forecasting with ARIMA & Prophet for 90-day revenue outlook',
+      'Interactive business dashboard with drill-down analytics',
+      'Automated alerts for at-risk customers and sales dips',
+    ],
+    stack: ['Python', 'Scikit-learn', 'Prophet', 'Flask', 'Plotly', 'PostgreSQL'],
+    impact: 'Reduced churn by simulating 3 intervention scenarios, saving an estimated 18% revenue leakage for pilot clients.',
+    github: 'https://github.com/rayeesa163',
+    demo: '#',
+  },
+  {
+    id: '02',
+    icon: '🛍️',
+    color: 'purple',
+    title: 'Multimodal AI Shopping Assistant',
+    tagline: 'Shop with emotion, voice, and intent',
+    features: [
+      'Real-time emotion detection via DeepFace to personalize recommendations',
+      'NLP-powered product matching using sentence transformers',
+      'Voice + text interaction with Whisper ASR integration',
+      'Context-aware cart suggestions based on browsing patterns',
+    ],
+    stack: ['DeepFace', 'Whisper', 'FastAPI', 'HuggingFace', 'React', 'OpenCV'],
+    impact: 'Demonstrated 31% uplift in recommendation relevance vs keyword-only search in internal A/B testing.',
+    github: 'https://github.com/rayeesa163',
+    demo: '#',
+  },
+  {
+    id: '03',
+    icon: '🎓',
+    color: 'gold',
+    title: 'AI Career Mentor & Interview Assistant',
+    tagline: 'Your AI-powered career co-pilot',
+    features: [
+      'Resume parsing and ATS optimization scoring with NLP',
+      'Domain-specific mock interview system with adaptive difficulty',
+      'Skill gap detection mapped to curated learning roadmaps',
+      'Personalized job-fit scoring against JD requirements',
+    ],
+    stack: ['spaCy', 'LangChain', 'Django', 'OpenAI API', 'FAISS', 'React'],
+    impact: 'Helped 40+ beta users identify skill gaps and improve resume ATS scores by an average of 34%.',
+    github: 'https://github.com/rayeesa163',
+    demo: '#',
+  },
+  {
+    id: '04',
+    icon: '🔍',
+    color: 'green',
+    title: 'Agentic AI Review Trend Analyzer',
+    tagline: 'Turn millions of reviews into strategic signals',
+    features: [
+      'Multi-source sentiment analysis with BERT fine-tuned on domain data',
+      'Automated trend extraction and topic clustering at scale',
+      'Agentic pipeline with LLM-driven insight summaries',
+      'Temporal trend tracking to surface emerging complaints & praise',
+    ],
+    stack: ['BERT', 'LangChain', 'Spark', 'Airflow', 'FastAPI', 'MongoDB'],
+    impact: 'Processed 500K+ reviews with 91% sentiment accuracy, surfacing actionable insights 10× faster than manual analysis.',
+    github: 'https://github.com/rayeesa163',
+    demo: '#',
+  },
+]
+
+// ─── EXPERIENCE ──────────────────────────────────────────────────────────────
+export const experience = [
+  {
+    role: 'AI Data Quality Analyst',
+    company: 'Rooman Technologies',
+    date: '2024',
+    bullets: [
+      'Designed and executed data validation pipelines for AI training datasets, improving label accuracy by 22%',
+      'Developed Python scripts to detect annotation inconsistencies across 100K+ records',
+      'Collaborated with ML engineers to define quality benchmarks for NLP model fine-tuning',
+    ],
+  },
+  {
+    role: 'Machine Learning Engineer',
+    company: 'Future Interns',
+    date: '2024',
+    bullets: [
+      'Built and deployed classification models for real-world datasets achieving 89% F1 score',
+      'Implemented MLflow experiment tracking to streamline model versioning and reproducibility',
+      'Integrated ML APIs into Flask-based backend for real-time inference serving',
+    ],
+  },
+  {
+    role: 'Data Analyst',
+    company: 'Smartbridge',
+    date: '2023',
+    bullets: [
+      'Engineered ETL pipelines ingesting 5M+ rows/day, reducing reporting latency by 60%',
+      'Built Tableau dashboards adopted by 3 business units for weekly KPI reviews',
+      'Wrote advanced SQL queries for cohort analysis, funnel metrics, and retention modeling',
+    ],
+  },
+  {
+    role: 'Django Developer',
+    company: 'Perpex',
+    date: '2023',
+    bullets: [
+      'Built RESTful APIs with Django REST Framework serving 10K+ daily requests',
+      'Optimized database queries reducing average API response time from 800ms to 120ms',
+      'Integrated third-party ML microservices into the core product backend',
+    ],
+  },
+  {
+    role: 'AI/ML Intern',
+    company: 'ExcelR',
+    date: '2023',
+    bullets: [
+      'Researched and implemented deep learning models for image classification with TensorFlow',
+      'Preprocessed and augmented datasets to address class imbalance, improving model recall by 15%',
+    ],
+  },
+  {
+    role: 'SDE Intern',
+    company: 'Code Inbound LLP',
+    date: '2022',
+    bullets: [
+      'Contributed to backend feature development, writing unit tests that reduced regression bugs by 30%',
+      'Built data ingestion utilities in Python for internal analytics tooling',
+    ],
+  },
+  {
+    role: 'Quality Assurance Intern',
+    company: 'Accrete Concierge',
+    date: '2022',
+    bullets: [
+      'Executed test cases for web and API layers, documenting 80+ bugs with detailed reproduction steps',
+      'Introduced structured QA checklists that cut production incident rate by 18%',
+    ],
+  },
+]
+
+// ─── PROJECTS ────────────────────────────────────────────────────────────────
+export const projects = [
+  {
+    title: 'AutoCurate AI',
+    badge: 'NLP · Forecasting',
+    problem: 'Information overload in daily news consumption.',
+    solution: 'Autonomous news curation engine using NLP topic clustering, extractive summarization (BART), and trend forecasting to deliver personalized daily digests.',
+    stack: ['BART', 'spaCy', 'FastAPI', 'Celery', 'Redis'],
+    result: '78% reduction in reading time · 92% topic relevance score',
+    github: 'https://github.com/rayeesa163',
+  },
+  {
+    title: 'Housing Market Dashboard',
+    badge: 'Analytics · Viz',
+    problem: 'Buyers and analysts lack real-time market visibility.',
+    solution: 'Full-stack analytics platform with Flask API backend serving Tableau-embedded dashboards, featuring price trend analysis and neighborhood-level heatmaps.',
+    stack: ['Flask', 'Tableau', 'PostgreSQL', 'Pandas'],
+    result: '15K data points visualized · Used by 200+ students',
+    github: 'https://github.com/rayeesa163',
+  },
+  {
+    title: 'Amazon Recommendation System',
+    badge: 'RecSys · ML',
+    problem: 'Generic product recommendations reduce conversion.',
+    solution: 'Hybrid collaborative + content-based filtering using matrix factorization (SVD) on Amazon review datasets, with a real-time API serving layer.',
+    stack: ['Surprise', 'Scikit-learn', 'FastAPI', 'NumPy'],
+    result: 'RMSE 0.83 on 500K+ interactions · Top-10 precision 74%',
+    github: 'https://github.com/rayeesa163',
+  },
+  {
+    title: 'Stock Price Predictor',
+    badge: 'Time Series · DL',
+    problem: 'Volatile markets make short-term price prediction high-risk.',
+    solution: 'LSTM-based deep learning model for multi-stock forecasting with technical indicator feature engineering, Streamlit UI, and live data via yfinance.',
+    stack: ['TensorFlow', 'LSTM', 'yfinance', 'Streamlit'],
+    result: '6.2% MAPE on 30-day predictions · Deployed Streamlit app',
+    github: 'https://github.com/rayeesa163',
+  },
+]
+
+// ─── SKILLS ──────────────────────────────────────────────────────────────────
+export const skills = [
+  {
+    group: 'AI / ML',
+    icon: '🤖',
+    items: [
+      { name: 'Python',      pct: 95 },
+      { name: 'NLP / LLMs',  pct: 88 },
+      { name: 'Deep Learning',pct: 83 },
+      { name: 'TensorFlow',  pct: 80 },
+      { name: 'Scikit-learn',pct: 90 },
+    ],
+  },
+  {
+    group: 'Data & Analytics',
+    icon: '📊',
+    items: [
+      { name: 'SQL',           pct: 92 },
+      { name: 'Pandas/NumPy',  pct: 93 },
+      { name: 'Tableau',       pct: 82 },
+      { name: 'Data Pipelines',pct: 78 },
+      { name: 'Statistics',    pct: 85 },
+    ],
+  },
+  {
+    group: 'Backend & Tools',
+    icon: '⚙️',
+    items: [
+      { name: 'Django/DRF',  pct: 87 },
+      { name: 'FastAPI/Flask',pct: 85 },
+      { name: 'Docker',      pct: 72 },
+      { name: 'MLflow',      pct: 78 },
+      { name: 'Git / CI-CD', pct: 88 },
+    ],
+  },
+]
+
+// ─── CERTIFICATIONS ──────────────────────────────────────────────────────────
+export const certifications = [
+  { title: 'Google Data Analytics',  issuer: 'Google · Coursera',      icon: '🔵', bg: 'rgba(66,133,244,0.1)',   border: 'rgba(66,133,244,0.2)' },
+  { title: 'IBM SQL Certification',  issuer: 'IBM · Coursera',          icon: '🔷', bg: 'rgba(0,135,190,0.1)',   border: 'rgba(0,135,190,0.2)' },
+  { title: 'NVIDIA Deep Learning',   issuer: 'NVIDIA DLI',              icon: '🟢', bg: 'rgba(118,185,0,0.1)',   border: 'rgba(118,185,0,0.2)' },
+  { title: 'AWS Cloud Foundations',  issuer: 'Amazon Web Services',     icon: '🟠', bg: 'rgba(255,153,0,0.1)',   border: 'rgba(255,153,0,0.2)' },
+  { title: 'JPMorgan Simulation',    issuer: 'Forage · JPMorgan Chase', icon: '💙', bg: 'rgba(0,117,190,0.1)',   border: 'rgba(0,117,190,0.2)' },
+  { title: 'Accenture Analytics Sim',issuer: 'Forage · Accenture',      icon: '💜', bg: 'rgba(160,0,255,0.1)',  border: 'rgba(130,0,200,0.2)' },
+]
+
+// ─── CONTACT ─────────────────────────────────────────────────────────────────
+export const contact = {
+  email:    'srayeesatabusum@gmail.com',
+  github:   'https://github.com/rayeesa163',
+  linkedin: 'https://www.linkedin.com/in/s-rayeesa-tabusum-3b2526351/',
+  resume:   '#',
+}
